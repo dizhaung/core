@@ -8,6 +8,7 @@
     <result column="mobile" property="mobile" jdbcType="VARCHAR" />
     <result column="create_time" property="createTime" jdbcType="INTEGER" />
   </resultMap>
+
   <sql id="Example_Where_Clause" >
     <where >
       <foreach collection="oredCriteria" item="criteria" separator="or" >
