@@ -31,8 +31,8 @@
         </javaModelGenerator>
 
         <!-- 生成映射文件包名和位置 -->
-        <sqlMapGenerator targetPackage="core.com.mapper"
-            targetProject="../../src/main/java">
+        <sqlMapGenerator targetPackage="mapper"
+            targetProject="../../src/main/resources">
             <property name="enableSubPackages" value="true" />
         </sqlMapGenerator>
         <!-- 生成DAO文件包名和位置 -->
